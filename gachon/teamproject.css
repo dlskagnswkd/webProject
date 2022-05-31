@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=MuseoModerno:wght@500&family=Noto+Sans+KR:wght@100&family=Roboto+Slab:wght@800&family=Tiro+Gurmukhi&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .top {
+    width: 100px;
+    height: 90px;
+    position: fixed;
+    text-align: center;
+    background-color: ivory;
+    margin-left: 60px;
+    margin-top: 60px;
+    font-weight: bolder;
+    border-radius: 50%;
+  }
+  body>a{
+    color: black;
+    text-decoration: none;
+  }
+  body>a:hover{
+    color: bisque;
+    background-color: gray;
+  }
+  #header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("food.jpg");
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Roboto Slab';
+  }
+  
+  #navbar {
+    background-color: ivory;
+    padding: 14px 0;
+    float: right;
+    
+  }
+  #navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  #navbar a:hover {
+    border-bottom: 5px solid brown;
+  }
+  
+  .imgbox {
+    clear: both;
+    background-color: #aaaaaa;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+  }
+  
+  .menu {
+    float: left;
+    width: 25%;
+    background-color: bisque;
+    padding: 20px;
+  }
+  .menu>h3>a {
+    text-decoration: none;
+    color: black;
+    
+  } 
+  .menu>ul>li>a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu>h3>a:hover{
+    color: white;
+  }
+  .menu>ul>li>a:hover{
+    color: white;
+    
+  }
+  li{
+    list-style: none;
+  }
+  .main {
+    float: left;
+    width: 65%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .name {
+    float: left;
+    font-weight: bold;
+  }
+  .main > h2 {
+    margin: 50px 0 30px 0;
+  }
+  
+  .footer{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    padding-top: 6%;
+  }
+  .footer>div{
+    display: inline-block;
+  }
+  .box1{
+    border-right: 1px solid black;
+    width: 15%;
+    height: 30%;
+  }
+  .box2{
+    width: 15%;
+    height: 30%;
+  }
+  .box3{
+    border-left: 1px solid black;
+    width: 15%;
+    height: 30%;
+  }
+  .footer>p{
+    margin-top: 5%;
+  }
+  
+  @media (max-width: 700px) {
+    #navbar a {
+      display: block;
+    }
+    .menu {
+      clear: both;
+      width: 95%;
+    }
+    .main {
+      clear: both;
+      width: 95%;
+    }
+  }

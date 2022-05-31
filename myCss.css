@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=MuseoModerno:wght@500&family=Noto+Sans+KR:wght@100&family=Roboto+Slab:wght@800&family=Tiro+Gurmukhi&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 200vh;
+  min-height: 850px;
+  margin: 0 auto;
+}
+.header{
+  background-color: ivory;
+  width: 100%;
+  height: 3%;
+}
+.header>ul{
+  list-style-type: none;
+  position: relative;
+  top: 20%;
+}
+.header>ul>li{
+  float: right;
+  margin-left: 10px;
+}
+.header>ul>li>a{
+  padding: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+.header>ul>li:last-child>a{
+  border-bottom: 5px solid brown;
+}
+.header>ul>li>a:hover{
+  border-bottom: 5px solid brown;
+}
+.header p{
+  clear: both;
+  position: relative;
+  top: 35%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+
+}
+.section{
+  background-image: url("food.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 45%;
+  padding-left: 20%;
+  padding-top: 11%;
+}
+.section>div p{
+  color: white;
+  font-family: 'Roboto Slab';
+  font-size: 8.0rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.section>div>.small{
+  font-size: 4.0rem;
+}
+.section2{
+  background-color: bisque;
+  width: 100%;
+  height: 39%;
+  text-align: center;
+  min-height: 850px;
+}
+.section2>p{
+  font-family: 'Roboto Slab';
+}
+.choice{
+  font-size: 6rem;
+  font-weight: 700;
+  padding-top: 6%;
+}
+.choice+p{
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.section2>div>a+p
+{
+  position: relative;
+  top: 20%;
+  margin: 0px;
+}
+.section2>div{
+  margin: 0 auto;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 7%;
+  padding: 30px;
+}
+.section2>div>a>p{
+  color: black;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: 900; 
+}
+.section2>div>img{
+  vertical-align: middle;
+}
+.section2>div>a{
+  text-decoration: none;
+}
+.footer{
+  width: 100%;
+  height: 13%;
+  text-align: center;
+  padding-top: 6%;
+}
+.footer>div{
+  display: inline-block;
+}
+.box1{
+  border-right: 1px solid black;
+  width: 15%;
+  height: 30%;
+}
+.box2{
+  width: 15%;
+  height: 30%;
+}
+.box3{
+  border-left: 1px solid black;
+  width: 15%;
+  height: 30%;
+}
+.footer>p{
+  margin-top: 5%;
+}
+@media(max-width : 1330px){
+  .container{
+    height: 100vh;
+    min-width: 850px;
+    min-height: 1100px;
+  }
+  .section>div p{
+    display: none;
+  }
+  .section2{
+    height: 30%;
+  } 
+  .section2>div{
+    display: block;
+    border: 1px solid black;
+    background-color: ivory;
+    border-radius: 0%;
+    height: 10%;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+  .section2>.choice+p{
+    margin-bottom: 100px;
+  }
+  
+  .section2>div>a>img{
+    display: none;
+  }
+  .section2>div>a>p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+  }
+}
